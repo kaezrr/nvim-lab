@@ -18,11 +18,8 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = false
 vim.opt.scrolloff = 8
 vim.opt.fillchars = { eob = ' ' }
-
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
+vim.opt.confirm = true
 vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
 
 -- Sync clipboard between OS and Neovim.
 vim.schedule(function()
